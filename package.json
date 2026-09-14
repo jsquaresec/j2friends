@@ -7,7 +7,9 @@
   "start": "node src/index.js",
   "dev": "node src/index.js",
   "deploy:guild": "node src/deploy-commands.js guild",
-  "deploy:global": "node src/deploy-commands.js global"
+  "deploy:global": "node src/deploy-commands.js global",
+  "clear:guild": "node src/clear-commands.js guild",
+  "clear:global": "node src/clear-commands.js global"
 },
   "keywords": [],
   "author": "J2 Sec",
